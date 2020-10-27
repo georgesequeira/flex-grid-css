@@ -1,0 +1,7 @@
+.fancy-field {
+    display: flex;
+}
+
+.fancy-field input {
+    flex: 1 0 0;
+}

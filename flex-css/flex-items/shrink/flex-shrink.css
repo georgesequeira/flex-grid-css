@@ -1,0 +1,24 @@
+.item {
+    /* Flex items are shrunk to fit. */
+    width: 100px;
+}
+
+.all-shrink-container .item {
+    flex-shrink: 1;
+}
+
+.all-no-shrink-container .item {
+    flex-shrink: 0;
+}
+
+.one-item-shrink-container .item {
+    flex-shrink: 0;
+}
+
+.one-item-shrink-container .item:first-of-type {
+    flex-shrink: 1;
+}
+
+.one-two-one-one-container .item:nth-of-type(2) {
+    flex-shrink: 2;
+}

@@ -1,0 +1,165 @@
+* {
+    flex: 0 0 0%;
+    flex-flow: row nowrap;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#chat-container {
+    flex: 1 1 0%;
+    min-width: 800px;
+    max-width: 1000px;
+    max-height: 800px;
+    height: 95vh;
+    background: #FFF;
+    border-radius: 10px;
+
+    display: flex;
+}
+
+#side-bar {
+    background: #0048AA;
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#chat-window {
+    border-radius: 0 10px 10px 0;
+    flex: 1 0 0%;
+}
+
+#conversation-list {
+    flex: 1 0 0%;
+}
+
+#search-container {
+    flex: 0 0 71px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#search-container input {
+    flex: 0 0 30px;
+}
+
+#new-message-container {
+    display: flex;
+    flex: 0 0 78px;
+    align-items: center;
+}
+
+#new-message-container a {
+    flex: 0 0 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#chat-window {
+    display: flex;
+    flex-direction: column;
+}
+
+#chat-message-list {
+    flex: 1 1 0%;
+    display: flex;
+    flex-flow: column-reverse nowrap;
+    overflow-y: scroll;
+}
+
+#chat-title {
+    display: flex;
+    flex: 0 0 71px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#chat-title > span {
+    flex: 1 0 0%;
+}
+
+.trash-logo {
+    flex: 0 0 36px;
+}
+
+.conversation {
+    flex: 1 1 0%;
+    display: flex;
+}
+
+.conversation-details {
+    flex: 1 1 0%;
+    display: flex;
+    flex-direction: column;
+}
+.conversation-title { 
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.conversation-details{
+    overflow-x: hidden;
+}
+
+.title-text {
+    flex-grow: 1;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+.created-date {
+    white-space: nowrap;
+}
+
+.conversation-message {
+    flex: 0 0 auto;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+#conversation-list {
+    overflow-y: scroll;
+}
+
+#conversation-message {
+    flex: 0 0 auto;
+}
+
+.message-row {
+    display: flex;
+    flex: 0 0 auto;
+}
+
+.message-details {
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    flex: 1 0 0%;
+}
+
+.you-message .message-text,
+.you-message .message-time {
+    align-self: flex-end;
+}
+
+.you-message {
+    align-self: flex-end;
+    justify-content: flex-end;
+}
+
+.message-container {
+    display: flex;
+    flex: 0 0 70%;
+}

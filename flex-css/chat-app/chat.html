@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Chat App</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/flex.css" />
+</head>
+<body>
+    <div id="chat-container">
+        <div id="side-bar">
+            <div id="search-container">
+                <input id="input" type="text" placeholder="Search here" />
+            </div>
+            <div id="conversation-list">
+                <div class="conversation">
+                    <img src="images/profiles/ben.png" alt="ben" />
+                    <div class="conversation-details">
+                        <div class="conversation-title">
+                            <div class="title-text">George Sequeira helojlkjqweko</div>
+                            <div class="created-date">Apr 16</div>
+                        </div>
+                        <div class="conversation-message">
+                            This is a message
+                            This is a message
+                            This is a message
+                            This is a message
+                            This is a message
+                        </div>
+                    </div>
+                </div>
+                <div class="conversation">
+                    <img src="images/profiles/kim.jpeg" alt="Kim O'Neil" />
+                    <div class="conversation-details">
+                        <div class="conversation-title">
+                            <div class="title-text">
+                                Kim O'Neil
+                            </div>
+                            <div class="created-date">
+                                2 days ago
+                            </div>
+                        </div>
+                        <div class="conversation-message">
+                            Very funny
+                        </div>
+                    </div>
+                </div>
+                <div class="conversation">
+                    <img src="images/profiles/john.jpeg" alt="John Anderson" />
+                    <div class="conversation-details">
+                        <div class="conversation-title">
+                            <div class="title-text">
+                                John Anderson
+                            </div>
+                            <div class="created-date">
+                                1 week ago
+                            </div>
+                        </div>
+                        <div class="conversation-message">
+                            Yes I love how Python does that
+                        </div>
+                    </div>
+                </div>
+                <div class="conversation">
+                    <img src="images/profiles/ben.png" alt="Ben Smith" />
+                    <div class="conversation-details">
+                        <div class="conversation-title">
+                            <div class="title-text">
+                                Ben Smith
+                            </div>
+                            <div class="created-date">
+                                2:49 PM
+                            </div>
+                        </div>
+                        <div class="conversation-message">
+                            Yeah Miami Heat are done
+                        </div>
+                    </div>
+                </div>
+                <div class="conversation">
+                    <img src="images/profiles/douglas.png" alt="Douglas Johannasen" />
+                    <div class="conversation-details">
+                        <div class="conversation-title">
+                            <div class="title-text">
+                                Douglas Johannasen
+                            </div>
+                            <div class="created-date">
+                                6:14 PM
+                            </div>
+                        </div>
+                        <div class="conversation-message">
+                            No it does not
+                        </div>
+                    </div>
+                </div>
+                <div class="conversation">
+                    <img src="images/profiles/jacob.png" alt="Jacob Manly" />
+                    <div class="conversation-details">
+                        <div class="conversation-title">
+                            <div class="title-text">
+                                Jacob Manly
+                            </div>
+                            <div class="created-date">
+                                3 secs ago
+                            </div>
+                        </div>
+                        <div class="conversation-message">
+                            Just be very careful doing that
+                        </div>
+                    </div>
+                </div>
+                <div class="conversation">
+                    <img src="images/profiles/stacey.jpeg" alt="Stacey Wilson" />
+                    <div class="conversation-details">
+                        <div class="conversation-title">
+                            <div class="title-text">
+                                Stacey Wilson
+                            </div>
+                            <div class="created-date">
+                                30 mins ago
+                            </div>
+                        </div>
+                        <div class="conversation-message">
+                            Awesome!!! Congratulations!!!!
+                        </div>
+                    </div>
+                </div>
+                <div class="conversation">
+                    <img src="images/profiles/stan.jpeg" alt="Stan George" />
+                    <div class="conversation-details">
+                        <div class="conversation-title">
+                            <div class="title-text">
+                                Stan George
+                            </div>
+                            <div class="created-date">
+                                1 week ago
+                            </div>
+                        </div>
+                        <div class="conversation-message">
+                            Good job
+                        </div>
+                    </div>
+                </div>
+                <div class="conversation">
+                    <img src="images/profiles/sarah.jpeg" alt="Sarah Momes" />
+                    <div class="conversation-details">
+                        <div class="conversation-title">
+                            <div class="title-text">
+                                Sarah Momes
+                            </div>
+                            <div class="created-date">
+                                1 year ago
+                            </div>
+                        </div>
+                        <div class="conversation-message">
+                            Thank you. I appreciate that.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="new-message-container">
+                <a href="#">+</a>
+            </div>
+        </div>
+        <div id="chat-window">
+            <div id="chat-title">
+                <span>Your name</span>
+                
+                <svg class="trash-logo" enable-background="new 0 0 500 500" version="1.1" viewBox="0 0 500 500" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g>
+                        <line fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2.6131" stroke-width="10" x1="101.642" x2="120.633" y1="134.309" y2="430.972"/>
+                        <path d="   M120.633,430.972c0,10.5,8.519,19.031,18.992,19.031" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2.6131" stroke-width="10"/>
+                        <line fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2.6131" stroke-width="10" x1="139.625" x2="360.389" y1="450.003" y2="450.003"/>
+                        <path d="   M360.389,450.003c10.474,0,18.979-8.531,18.979-19.031" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2.6131" stroke-width="10"/>
+                        <polyline fill="none" points="   379.367,430.972 398.386,134.309 101.642,134.309  " stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2.6131" stroke-width="10"/>
+                        <path d="   M432.779,115.973c0,10.059-8.143,18.215-18.188,18.215" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2.6131" stroke-width="10"/>
+                        <line fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2.6131" stroke-width="10" x1="414.592" x2="85.409" y1="134.188" y2="134.188"/>
+                        <path d="   M85.409,134.188c-10.018,0-18.188-8.156-18.188-18.215" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2.6131" stroke-width="10"/>
+                        <path d="   M67.221,115.973c0-10.019,8.17-18.188,18.188-18.188" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2.6131" stroke-width="10"/>
+                        <line fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2.6131" stroke-width="10" x1="85.409" x2="414.592" y1="97.784" y2="97.784"/>
+                        <path d="   M414.592,97.784c10.045,0,18.188,8.17,18.188,18.188" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2.6131" stroke-width="10"/>
+                        <line fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2.6131" stroke-width="10" x1="307.364" x2="307.364" y1="97.49" y2="68.988"/>
+                        <path d="   M307.364,68.988c0-10.474-8.505-18.991-18.965-18.991" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2.6131" stroke-width="10"/>
+                        <line fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2.6131" stroke-width="10" x1="288.399" x2="211.628" y1="49.997" y2="49.997"/>
+                        <path d="   M211.628,49.997c-10.487,0-18.979,8.518-18.979,18.991" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2.6131" stroke-width="10"/>
+                        <polyline fill="none" points="   192.649,68.988 192.649,97.49 307.364,97.49  " stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2.6131" stroke-width="10"/>
+                    <g>
+                        <line fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2.6131" stroke-width="10" x1="166.332" x2="166.332" y1="172.278" y2="406.06"/>
+                        <line fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2.6131" stroke-width="10" x1="222.102" x2="222.102" y1="172.278" y2="406.06"/>
+                        <line fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2.6131" stroke-width="10" x1="277.926" x2="277.926" y1="172.278" y2="406.06"/>
+                        <line fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2.6131" stroke-width="10" x1="333.669" x2="333.669" y1="172.278" y2="406.06"/>
+                    </g>
+                </svg>
+            </div>
+            <div id="chat-message-list">
+                <div class="message-row you-message">
+                    <div class="message-container">
+                        <div class="message-details">
+                            <div class="message-text">
+                                Okay then.
+                            </div>
+                            <div class="message-time">
+                                Apr 16.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="message-row other-message">
+                    <div class="message-container">
+                        <div class="user-picture-container">
+                            <img src="images/profiles/daryl.png" />
+                        </div>
+                        <div class="message-details">
+                            <div class="message-text">
+                                Yeah I think it's best we do that. lkjakldjflkajdflkjalkjdflkajd lkjadlkfj klja dflkj lkaflkjda lalk faklj aklfj alkfjsdlkj 
+                            </div>
+                            <div class="message-time">
+                                Apr 16.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="message-row you-message">
+                    <div class="message-container">
+                        <div class="message-details">
+                            <div class="message-text">
+                                Maybe we can use Jim's studio.
+                            </div>
+                            <div class="message-time">Apr 15</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="message-row other-message">
+                    <div class="message-container">
+                        <div class="user-picture-container">
+                            <img src="images/profiles/daryl.png" alt="Daryl Duckmanton" />
+                        </div>
+                        <div class="message-details">
+                            <div class="message-text">
+                                All I know is where I live it's too hard
+                                to record because of all the street noise.
+                            </div>
+                            <div class="message-time">Apr 16</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="message-row you-message">
+                    <div class="message-container">
+                        <div class="message-details">
+                            <div class="message-text">
+                                Well we need to work out sometime soon where
+                                we really want to record our video course.
+                            </div>
+                            <div class="message-time">Apr 15</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="message-row other-message">
+                    <div class="message-container">
+                        <div class="user-picture-container">
+                            <img src="images/profiles/daryl.png" alt="Daryl Duckmanton" />
+                        </div>
+                        <div class="message-details">
+                            <div class="message-text">
+                                I'm just in the process of finishing off the
+                                last pieces of material for the course.
+                            </div>
+                            <div class="message-time">Apr 14</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="message-row you-message">
+                    <div class="message-container">
+                        <div class="message-details">
+                            <div class="message-text">
+                                How's it going?
+                            </div>
+                            <div class="message-time">Apr 13</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="message-row other-message">
+                    <div class="message-container">
+                        <div class="user-picture-container">
+                            <img src="images/profiles/daryl.png" alt="Daryl Duckmanton" />
+                        </div>
+                        <div class="message-details">
+                            <div class="message-text">
+                                Hey mate what's up?
+                            </div>
+                            <div class="message-time">Apr 13</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="message-row you-message">
+                    <div class="message-container">
+                        <div class="message-details">
+                            <div class="message-text">
+                                Hey Daryl?
+                            </div>
+                            <div class="message-time">Apr 13</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="chat-form">
+                This is the form section
+            </div>
+        </div>
+    </div>
+</body>
+</html>
